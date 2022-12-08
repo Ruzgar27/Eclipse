@@ -44,9 +44,8 @@ public class FirstPresident {
       break;
       default: System.out.println("One of his favorite sayings is : " + quotes);
 
-   
-
-     
+      
+      
       }
     }
       
