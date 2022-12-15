@@ -14,7 +14,7 @@ public class StudentHeightSort {
                 }
                 
                 if(heights[i]<heights[i+j]){
-               
+               //Bubble sort
                     String string=names[i+j];
                     
                     names[i+j]=names[i];
