@@ -59,7 +59,7 @@ public class lab03_Q3 {
 				
 			}else if(Operation==3) {
 				
-				System.out.println("Please enter your old PIN first.");
+				System.out.println("Please enter your old 4 digit PIN first.");
 				
 				int OldPIN = scanner.nextInt();
 				

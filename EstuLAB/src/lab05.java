@@ -41,8 +41,6 @@ public class lab05 {
 		}else 
 			System.out.println(number+" is not a palindrome.");
 		
-			
-			
 
 	}
 
