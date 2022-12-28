@@ -6,7 +6,7 @@ public class Numberguessingame {
 		Scanner scanner = new Scanner(System.in);
 		Random random = new Random();
 		
-		int k = 25;
+		int k = 15;
 
 		int r = random.nextInt(100)+1;		
 		

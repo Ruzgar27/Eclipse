@@ -9,7 +9,7 @@ public class nbynmatrix {
 		int RandomSize = r.nextInt(10)+1;
 		
 		return RandomSize;
-		
+		 
 		
 	}
 	
@@ -19,9 +19,9 @@ public class nbynmatrix {
 		
 		int[][] matrix = new int[n][n];
 		
-		for(int i = 0; i < n;i++) {
+		for(int i = 0 ; i < n ; i++) {
 			
-			  for(int j = 0 ; j < n;j++) {
+			  for(int j = 0 ; j <  n; j++) {
 				  				  
 				  matrix[i][j] = r.nextInt(20)+1;
 				  
@@ -54,9 +54,9 @@ public class nbynmatrix {
 		
 		 int sumL = 0 , sumR= 0;
 		 
-		for(int i = 0 ; i<matrix.length;i++) {
+		for(int i = 0 ; i < matrix.length ; i++) {
 			
-			for(int j = 0;j<matrix.length;j++) {
+			for(int j = 0; j < matrix.length ; j++) {
 				
 				if(i==j) 
 					
@@ -71,13 +71,13 @@ public class nbynmatrix {
 
       }
 		
-        System.out.println("The right sum of the matrix is : "+sumR);
+        System.out.println("The right diagonal sum of the matrix is : "+sumR);
 		
 		
 		System.out.println("\n");
 		
 		
-		System.out.println("The left sum of the matrix is : " + sumL);
+		System.out.println("The left diagonal sum of the matrix is : " + sumL);
 
 	
 		return sumL ;
